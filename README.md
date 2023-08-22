@@ -1,5 +1,4 @@
-# Shell script to count line of code of any repository
-
+# Cloc (count line of code) of any repository using Shell script
 Count line of code using cloc package for the any github repository
 and send the count line of code on email.
 
