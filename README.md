@@ -62,7 +62,7 @@ Install mailsend-go
 ```
 
 
-## Deployment
+## To Run shell script
 
 To run this Shell script
 
