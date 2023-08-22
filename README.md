@@ -6,7 +6,7 @@ and send the count line of code on email.
 
 - [Cloc Documentation](https://github.com/AlDanial/cloc)    
 - [Mailsend-Go Documentation](https://github.com/muquit/mailsend-go)
-- [App-Password for gmail account Documentation](https://stackoverflow.com/questions/60701936/error-invalid-login-application-specific-password-required)
+- [Genrate App-Password for gmail account Documentation](https://stackoverflow.com/questions/60701936/error-invalid-login-application-specific-password-required)
 
 
 ## Installation
