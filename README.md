@@ -1,8 +1,7 @@
-
 # Cloc (count line of code) of any repository using Shell script
 
 Count line of code using cloc package for the any github repository
-and send the count line of code on email.
+and send the code lines count over email.
 
 ## Documentation
 
@@ -43,6 +42,10 @@ wget https://github.com/muquit/mailsend-go/releases/download/v1.0.10/mailsend-go
 ## Run Locally
 
 ### Windows 
+Install nodejs 
+
+ - [Download Link for Nodejs installer](https://nodejs.org/en/download)
+
 - Open Powershell in administrator mode
 
 Install scoop 
@@ -53,7 +56,7 @@ Install scoop
   iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
 ```
 
-Command if a permissions problem.
+If Permissions Problem occur
 ```bash
   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
@@ -63,7 +66,7 @@ Install mailsend-go
 ```bash
   scoop install mailsend-go
 ```
-Run sh file in terminal
+Run sh file in terminal (Ex. Git Bash)
 
 ```bash
   ./task2.sh <Repository_link>
@@ -71,9 +74,9 @@ Run sh file in terminal
 
 ### Linux - 
 
-Install nodejs.
+Install nodejs
 ```bash
-  Sudo apt install nodejs
+  sudo apt install nodejs
 ```
 
 Install scoop 
@@ -93,7 +96,7 @@ wget https://github.com/muquit/mailsend-go/releases/download/v1.0.10/mailsend-go
 
 ## To Run shell script
 
-To run this Shell script
+Run sh file in terminal
 
 ```bash
   ./task2.sh <Repository_link>
